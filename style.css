@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+a{
+    color: #bb86fc;
+    text-decoration: none;
+    margin: 40px;
+}
+body{
+    --web_background: #212121;
+    --web-font-color: #a7d3ce;
+    --title-color:#bb86fc;
+
+    
+    color: var(--web-font-color);
+    background-color: var(--web_background);
+}
+#guitar-img{
+    height: 40px;
+    object-fit: cover;
+}
+#title{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    color: var(--title-color);
+    padding: 5px;
+    background-color: #322c3a;
+    border: solid #cda6fd 1px;
+    
+}
+#audio{
+    height: 40px;
+    width: 30%;
+    margin: 10px;
+}
+#image{
+    height: 400px;
+    width: 400px;
+    margin: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    
+    animation: rotate 5s infinite;
+    
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(25deg);
+    }
+    50%{
+        transform: rotate(-45deg);
+    }
+    100%{
+        transform: rotate(25deg);
+    }
+}
+
+#img-caption{
+    color: #1ddecb;
+}
+#tribute-info{
+    text-align: center;
+    background-color: #2e2e2e;
+    font-size: 18px;
+    border-radius: 4px;
+    padding: 2%;
+    width: 30%;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#img-caption{
+    text-align: center;
+}
