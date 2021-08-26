@@ -38,8 +38,7 @@ body{
     margin: 10px;
 }
 #image{
-    height: 400px;
-    width: 400px;
+    height: 40vh;
     margin: 40px;
     object-fit: cover;
     border-radius: 50%;
@@ -58,7 +57,12 @@ body{
         transform: rotate(25deg);
     }
 }
-
+#img-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 #img-caption{
     color: #1ddecb;
 }
