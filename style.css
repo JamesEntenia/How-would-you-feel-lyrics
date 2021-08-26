@@ -67,6 +67,7 @@ body{
     color: #1ddecb;
 }
 #tribute-info{
+    min-width: 400px;
     text-align: center;
     background-color: #2e2e2e;
     font-size: 18px;
