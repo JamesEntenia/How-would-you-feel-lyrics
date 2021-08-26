@@ -38,7 +38,7 @@ body{
     margin: 10px;
 }
 #image{
-    height: 40vh;
+    max-width: 40%;
     margin: 40px;
     object-fit: cover;
     border-radius: 50%;
