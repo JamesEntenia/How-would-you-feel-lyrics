@@ -45,12 +45,14 @@ body{
     height: 32px;
 }
 #title-h1{
-    margin:0px 40px
+    white-space: nowrap;
+    margin:0 10px;
 }
 #tribute-link{
+    white-space: nowrap;
     color: var(--color-primary-500);
     text-decoration: none;
-    margin: 10px 40px;
+    margin:7px 10px;
 }
 #tribute-link:hover{
     border-bottom: 2px var(--color-primary-500) solid;
@@ -92,13 +94,12 @@ body{
     color: var(--color-primary-500);
 }
 #tribute-info{
-    position: relative;
     font-family: HappyMonkey-Regular;
-    min-width: 400px;
+    min-width: 350px;
     text-align: center;
     background-color: hsl(0, 0%, 98%);
     color: var(--color-primary-500);
-    font-size: 18px;
+    font-size: 16px;
     border-radius: 4px;
     padding: 2%;
     width: 30%;
@@ -113,140 +114,4 @@ body{
 }
 #img-caption{
     text-align: center;
-}
-#picks1{
-    position: absolute;
-    transform: rotate(25deg);
-    width: 800px;
-    display: flex;
-    justify-content: space-between;
-
-    animation: float1 5s infinite;
-    order: 2;
-}
-#picks2{
-    position: absolute;
-    transform: rotate(-35deg);
-    width: 1000px;
-    display: flex;
-    justify-content: space-between;
-    animation: float2 9s infinite;
-}
-#picks3{
-    position: absolute;
-    transform: rotate(10deg);
-    width: 1200px;
-    display: flex;
-    justify-content: space-between;
-    animation: float3 15s infinite;
-}
-.pick1{
-    transform: rotate(90deg);
-    height: 40px;
-    animation: rotate-pick1 3s infinite;
-}
-.pick2{
-    transform: rotate(20deg);
-    height: 60px;
-
-    animation: rotate-pick2 9s infinite;
-}
-.pick3{
-    transform: rotate(40deg);
-    height: 50px;
-    animation: rotate-pick3 14s infinite;
-}
-
-@keyframes float1{
-    0%{
-        transform: rotate(25deg);
-        margin-top: 0px;
-    }
-    50%{
-        transform: rotate(360deg);
-        margin-top:  1000px;
-    }
-    80%{
-        margin-top: 400px;
-    }
-    100%{
-        transform: rotate(25deg);
-        margin-top: 0px;
-    }
-}
-@keyframes float2{
-    0%{
-        transform: rotate(25deg);
-        margin-bottom: 0px;
-    }
-    50%{
-        transform: rotate(360deg);
-        margin-bottom:  700px;
-    }
-    80%{
-        margin-bottom: 1200px;
-    }
-    100%{
-        transform: rotate(25deg);
-        margin-bottom: 0px;
-    }
-}
-@keyframes float3{
-    0%{
-        transform: rotate(25deg);
-        margin-bottom: 0px;
-    }
-    50%{
-        transform: rotate(360deg);
-        margin-bottom:  1400px;
-    }
-    80%{
-        margin-bottom: 100px;
-    }
-    100%{
-        transform: rotate(25deg);
-        margin-bottom: 0px;
-    }
-}
-@keyframes rotate-pick1{
-    0%{
-        transform: rotate(25deg);
-        height: 40px;
-    }
-    50%{
-        transform: rotate(360deg);
-        height: 90px;
-    }
-    100%{
-        transform: rotate(25deg);
-        height: 40px;
-    }
-}
-@keyframes rotate-pick2{
-    0%{
-        transform: rotate(70deg);
-        height: 60px;
-    }
-    50%{
-        transform: rotate(-360deg);
-        height: 20px;
-    }
-    100%{
-        transform: rotate(70deg);
-        height: 60px;
-    }
-}
-@keyframes rotate-pick3{
-    0%{
-        transform: rotate(-95deg);
-        height: 50px;
-    }
-    50%{
-        transform: rotate(360deg);
-        height: 10px;
-    }
-    100%{
-        transform: rotate(-95deg);
-        height: 50px;
-    }
 }
