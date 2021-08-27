@@ -40,7 +40,7 @@ body{
     
 }
 #title img{
-    margin-top: 10px;
+    margin-top: 20px;
     transform: rotate(25deg);
     height: 32px;
 }
@@ -59,7 +59,8 @@ body{
 }
 #audio{
     height: 40px;
-    width: 400px;
+    max-width: 400px;
+    width: 100%;
     margin: 10px;
 }
 #image{
