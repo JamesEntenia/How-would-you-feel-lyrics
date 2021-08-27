@@ -18,6 +18,7 @@ body{
     
     --color-primary-300: hsl(267, 65%, 30%);
     --color-primary-500: hsl(267, 65%, 50%);
+    --color-primary-600: hsl(267, 65%, 60%);
     --color-primary-700: hsl(267, 65%, 70%);
     --color-primary-900: hsl(267, 65%, 90%);
 
@@ -30,10 +31,16 @@ body{
     object-fit: cover;
 }
 #title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container{
     align-items:flex-end;
     justify-content: space-between;
     display: flex;
-    height: auto;
+    max-width: 1000px;
     width: 100%;
     color: var(--color-primary-500);
     padding: 5px;
@@ -53,9 +60,11 @@ body{
     color: var(--color-primary-500);
     text-decoration: none;
     margin:7px 10px;
+    padding-left: 10px;
+    border-left: solid 1px var(--color-primary-700);
 }
 #tribute-link:hover{
-    border-bottom: 2px var(--color-primary-500) solid;
+    color: var(--color-primary-600);
 }
 #audio{
     height: 40px;
