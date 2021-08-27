@@ -95,15 +95,16 @@ body{
     color: var(--color-primary-500);
 }
 #tribute-info{
+    white-space: nowrap;
     font-family: HappyMonkey-Regular;
-    min-width: 400px;
+    min-width: 100px;
+    max-width: 400px;
     text-align: center;
     background-color: hsl(0, 0%, 98%);
     color: var(--color-primary-500);
     font-size: 16px;
     border-radius: 4px;
     padding: 2%;
-    width: 30%;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
     margin: 20px;
 }
