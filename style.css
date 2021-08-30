@@ -49,7 +49,7 @@ ul{
 }
 #container{
 
-    margin: 5px;
+    margin: 10px 0;
     width: 100%;
     max-width: 1000px;
     padding: 0px 10px;
@@ -65,11 +65,6 @@ ul{
 #text-logo{
     font-size: 20px;
 }
-#pick-logo{
-    width: 18px;
-    object-fit: cover;
-    transform: rotate(25deg);
-}
 #container ul{
     width: 100%;
     display: flex;
@@ -83,14 +78,14 @@ ul{
     margin:7px 10px;
 }
 #tribute-link:hover{
-    color: var(--color-primary-600);
+    color: var(--color-primary-700);
     border-bottom: 2px solid var(--color-primary-600);
 }
 /*-------------------------------------------*/
 #audio{
     height: 40px;
     max-width: 400px;
-    width: 100%;
+    width: 90%;
     margin: 10px;
 }
 #image{
