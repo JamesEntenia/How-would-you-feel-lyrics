@@ -27,6 +27,7 @@ body{
     background-color: var(--web_background);
     
 }
+
 li{
     list-style: none;
     white-space: nowrap;
@@ -62,8 +63,9 @@ ul{
 #logo-icon{
     font-size: 1.4em;
 }
-#text-logo{
+#logo{
     font-size: 20px;
+    margin: 0 10px;
 }
 #container ul{
     width: 100%;
@@ -75,7 +77,7 @@ ul{
     white-space: nowrap;
     color: var(--color-primary-500);
     text-decoration: none;
-    margin:7px 10px;
+    margin:0 10px;
 }
 #tribute-link:hover{
     color: var(--color-primary-700);
