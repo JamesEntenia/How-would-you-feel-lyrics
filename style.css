@@ -10,7 +10,6 @@
 
     font-family: sans-serif;
 }
-
 body{
     --web_background: hsl(0, 0%, 15%);
     --navbar_background: hsl(0, 0%, 13%);
@@ -25,6 +24,9 @@ body{
     background-color: var(--web_background);
     
 }
+element.style {
+    color: #2dd2a9;
+}   
 #main{
     display: flex;
     flex-direction: column;
@@ -77,6 +79,7 @@ ul{
 
 #logo-icon{
     font-size: 1.4em;
+    margin-right: 5px;
 }
 #logo{
     font-size: 22px;
@@ -125,6 +128,7 @@ ul{
 #image{
 
     max-width: 50%;
+    margin: 20px;
 
     object-fit: cover;
     border-radius: 50%;
@@ -166,13 +170,13 @@ ul{
     width: 90%;
     margin: 20px;
     max-width: 400px;
-    padding: 2%;
+    padding: 10px 5px;
 
     text-align: center;
     white-space: nowrap;
 
     border-radius: 4px;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.2);
     
 }
 
@@ -185,7 +189,7 @@ ul{
         font-size:18px;
     }
     #tribute-info{
-        font-size: 12px;
+        font-size: 13px;
     }
 
 }
